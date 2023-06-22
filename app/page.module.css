@@ -17,6 +17,26 @@
 	justify-items: center;
 }
 
+.rules {
+	margin: 2rem auto;
+	padding: 1rem;
+	background-color: rgba(0, 0, 0, .8);
+	text-align: center;
+	font-family: 'coc', sans-serif;
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacticons {
+	padding: 0 2rem;
+	display: flex;
+	gap: 1rem;
+}
+
 @media (width > 45rem) {
 	.container {
 		grid-template-columns: repeat(2, 1fr);
