@@ -169,6 +169,8 @@ const AccountCard = ({ data }) => {
     }
   }
 
+  console.log(data.price);
+
   return (
     <Link className={"mb-8"} href={`/account/${data.id}`}>
       <figure className={`${styles.card} rounded-xl shadow-xl overflow-hidden`}>
