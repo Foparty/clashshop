@@ -1,0 +1,17 @@
+.nav {
+
+	background-color: #f39c2d;
+	color: white;
+	padding: 1rem;
+	text-align: center;
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.logo {
+	max-width: 8rem;
+	transform: translateY(1rem);
+}

@@ -1,0 +1,10 @@
+.wallblock {
+	display: flex;
+	align-items: baseline;
+	gap: 1rem;
+}
+
+.wallblock p {
+	font-family: 'coc', sans-serif;
+	transform: translateY(-.4rem);
+}
