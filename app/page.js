@@ -33,8 +33,8 @@ export default function Home() {
                 className={styles.icon}
                 src={"/icons/whatsapp.svg"}
                 alt={""}
-                width={16}
-                height={16}
+                width={24}
+                height={24}
               />
             </Link>
             <Link
@@ -44,8 +44,8 @@ export default function Home() {
                 className={styles.icon}
                 src={"/icons/mail.svg"}
                 alt={""}
-                width={16}
-                height={16}
+                width={24}
+                height={24}
               />
             </Link>
           </div>
