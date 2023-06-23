@@ -21,21 +21,14 @@ const ImagePage = ({ params }) => {
         back to account
       </button>
       {data.mainimgs.map((item, index) => (
-        <div className={styles.imgcontainer}>
-          <Image
-            className={styles.img}
-            key={index}
-            src={item}
-            alt={""}
-            fill={true}
-          />
+        <div key={index} className={styles.imgcontainer}>
+          <Image className={styles.img} src={item} alt={""} fill={true} />
         </div>
       ))}
       {data.itemsimgs.map((item, index) => (
-        <div className={styles.imgcontainer}>
+        <div key={index} className={styles.imgcontainer}>
           <Image
             className={styles.img}
-            key={index}
             src={item}
             alt={""}
             width={3000}
@@ -44,10 +37,9 @@ const ImagePage = ({ params }) => {
         </div>
       ))}
       {data.heroskins.map((item, index) => (
-        <div className={styles.imgcontainer}>
+        <div key={index} className={styles.imgcontainer}>
           <Image
             className={styles.img}
-            key={index}
             src={item}
             alt={""}
             width={3000}
