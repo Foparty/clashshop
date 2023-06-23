@@ -78,17 +78,6 @@ const Page = ({ params }) => {
                 height={48}
               />
             </Link>
-            <Link
-              href={`mailto:alfonsomartingarcia@gmail.com?subject=COC SHOP acc: ${data.id}&body=Im interested in account ${data.id}`}
-            >
-              <Image
-                className={styles.icon}
-                src={"/icons/mail.svg"}
-                alt={""}
-                width={48}
-                height={48}
-              />
-            </Link>
           </div>
         </div>
         <div>
